@@ -67,4 +67,4 @@ Install it:
 
 ### Run learning.py to start train process. 
 
-![](https://github.com/driesdenouter/Reinforcement-learning-agent-that-has-learned-the-law/master/RL-agent (2).gif)
+![](https://github.com/driesdenouter/Reinforcement-learning-agent-that-has-learned-the-law/Reinforcement-learning-agent-law/master/RL-agent (2).gif)
