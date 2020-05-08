@@ -4,6 +4,10 @@ This is a project I have used for my Master Thesis in Tax Law. The goal was to f
 
 In the original code the agent was not able to change its speed. I have adjusted the code so that it was able to do that. Eventually regarding the max traveled distance, the new agent preformed the same way as the original agent, with an average max distance without crashing off about 540 frames. And it drives at a speed of 29/30, so right at the allowed limit. 
 
+A trained agent that obeys the speed limit and avoids obstacles:
+
+![](https://github.com/driesdenouter/Reinforcement-learning-agent-that-has-learned-the-law/blob/master/Reinforcement-learning-agent-law/RL-agent%20(2).gif)
+
 Medium articles Matt Harvey:
 
 *Part 1:* https://medium.com/@harvitronix/using-reinforcement-learning-in-python-to-teach-a-virtual-car-to-avoid-obstacles-6e782cc7d4c6
@@ -66,5 +70,3 @@ Install it:
 `python3.7 setup.py install`
 
 ### Run learning.py to start train process. 
-
-![](https://github.com/driesdenouter/Reinforcement-learning-agent-that-has-learned-the-law/blob/master/Reinforcement-learning-agent-law/RL-agent%20(2).gif)
