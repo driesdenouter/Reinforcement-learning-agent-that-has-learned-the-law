@@ -22,17 +22,17 @@ https://github.com/harvitronix/reinforcement-learning-car
 
 ## Installing
 
-These instructions are for a fresh Ubuntu 16.04 box. Most of the same should apply to OS X. 
+These instruction are for OS X. 
 
 ### Basics
 
-Recent Ubuntu releases come with python3 installed. I use pip3.7 for installing dependencies so install that with `sudo apt install python3-pip`. Install git if you don't already have it with `sudo apt install git`.
+Firstly install python 3.7 and brew.
 
 Then clone this repo at my Github account: driesdenouter. Project name: Reinforcement learning agent that has learned the law
 
 ### Python dependencies
 
-`pip3.7 install numpy keras h5py`
+`pip3 install numpy keras h5py`
 
 That should install a slew of other libraries you need as well.
 
@@ -40,11 +40,15 @@ That should install a slew of other libraries you need as well.
 
 Install Pygame's dependencies with:
 
-`sudo apt install mercurial libfreetype6-dev libsdl-dev libsdl-image1.2-dev libsdl-ttf2.0-dev libsmpeg-dev libportmidi-dev libavformat-dev libsdl-mixer1.2-dev libswscale-dev libjpeg-dev`
+`brew install mercurial libfreetype6-dev libsdl-dev libsdl-image1.2-dev libsdl-ttf2.0-dev libsmpeg-dev libportmidi-dev libavformat-dev libsdl-mixer1.2-dev libswscale-dev libjpeg-dev`
 
 Then install Pygame itself:
 
-`pip3.7 install hg+http://bitbucket.org/pygame/pygame`
+`python3.7 -m pip install -U pygame --user`
+
+And check if it works with 
+
+`python3.7 -m pygame.examples.aliens pygame 1.9.6`
 
 ### Install Pymunk
 
@@ -52,11 +56,9 @@ This is the physics engine used by the simulation. It just went through a pretty
 
 Go back to your home or downloads and get Pymunk 4:
 
-`wget https://github.com/viblo/pymunk/archive/pymunk-4.0.0.tar.gz`
+`https://github.com/viblo/pymunk/archive/pymunk-4.0.0.tar.gz`
 
-Unpack it:
-
-`tar zxvf pymunk-4.0.0.tar.gz`
+And unpack it
 
 Update from Python 2 to 3.7:
 
