@@ -17,7 +17,7 @@ Medium articles Matt Harvey:
 *Part 3 (for this version of the code):*
 https://medium.com/@harvitronix/reinforcement-learning-in-python-to-teach-an-rc-car-to-avoid-obstacles-part-3-a1d063ac962f
 
-*Github link original code
+Github link original code
 https://github.com/harvitronix/reinforcement-learning-car
 
 ## Installing
