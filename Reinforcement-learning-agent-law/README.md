@@ -18,7 +18,7 @@ https://github.com/harvitronix/reinforcement-learning-car
 
 ## Installing
 
-These instructions are for a fresh Ubuntu 16.04 box. Most of the same should apply to OS X. If you have issues installing, feel free to open an issue with your error and I'll do my best to help.
+These instructions are for a fresh Ubuntu 16.04 box. Most of the same should apply to OS X. 
 
 ### Basics
 
