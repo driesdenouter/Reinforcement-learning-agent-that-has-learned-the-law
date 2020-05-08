@@ -1,4 +1,4 @@
-# Reinforcement learning agent that has learned to obeys traffic laws and drives autonomously
+# Reinforcement learning agent that has learned to obey traffic laws and drives autonomously
 
 This is a project I have used for my Master Thesis in Tax Law. The goal was to find out if it is possible to learn a reinforcement agent to obey the law, in this case not violating the speed limit. I have set the speed limit to 30. The majority of the code has come from the three medium articles from Matt Harvey that are listed below. 
 
