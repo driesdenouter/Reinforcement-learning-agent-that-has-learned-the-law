@@ -67,4 +67,4 @@ Install it:
 
 ### Run learning.py to start train process. 
 
-![](RL-agent .gif)
+![teamwork-cat-dog](https://github.com/driesdenouter/Reinforcement-learning-agent-that-has-learned-the-law/blob/master/RL-agent (2).gif)
