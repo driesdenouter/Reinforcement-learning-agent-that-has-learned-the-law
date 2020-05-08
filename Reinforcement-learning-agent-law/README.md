@@ -67,3 +67,4 @@ Install it:
 
 ### Run learning.py to start train process. 
 
+![](RL-agent .gif)
