@@ -1,6 +1,6 @@
 # Reinforcement learning agent that has learned to obey traffic laws and drives autonomously
 
-This is a project I have used for my Master Thesis in Tax Law. The goal was to find out if it is possible to learn a reinforcement agent to obey the law, in this case not violating the speed limit. I have set the speed limit to 30. The majority of the code has come from the three medium articles that are listed below. 
+This is a project I have used for my Master Thesis in Tax Law. The goal was to find out if it is possible to learn a reinforcement agent to obey the law, in this case not violating the speed limit. I have set the speed limit to 30. The majority of the code has come from the three Medium articles that are listed below. 
 
 In the original code the agent was not able to change its speed. I have adjusted the code so that it was able to do that. Eventually regarding the max traveled distance, the new agent preformed the same way as the original agent, with an average max distance without crashing of about 540 frames. And it drives at a speed of 29/30, so right at the allowed limit. 
 
